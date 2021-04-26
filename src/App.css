@@ -62,6 +62,7 @@ h1 {
 }
 
 .about {
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
