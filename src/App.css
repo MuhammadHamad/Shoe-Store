@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 50px 0;
+}
+
+.products__header {
+  text-align: center;
+  color: grey;
+  margin: 15px;
+}
+
+.products__img {
+  border-radius: 3em;
+  box-shadow: 1px 1px 4px lightgreen, -1px -1px 4px lightgreen;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  background-color: lightgoldenrodyellow;
+  padding: 12px 0;
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: grey;
+  font-size: 24px;
+  padding: 0 10px;
+  font-family: fantasy;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px grey;
+}
+
+.home__img {
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: grey;
+  width: 400px;
+  border-bottom: 1px dotted green;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  font-size: 40px;
+  border: none;
+  animation: hammad 4s ease-in-out infinite;
+}
+
+@keyframes hammad {
+  0% {
+    transform: rotate(0deg);
+  }  
+  25% {
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+    transform: scale(1.2);
+  }
+
+  75% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
