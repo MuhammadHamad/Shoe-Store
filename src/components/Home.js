@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <img
-        src="https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Circle-Simple-Background-Image-1.jpg"
+        src="https://www.ebanman.com/wp-content/uploads/2020/08/Black-Owned-Mens-Shoe-Designers.jpg"
         alt="Home"
         className="home__img"
       />
